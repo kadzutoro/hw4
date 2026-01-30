@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.info {
+  padding: 8px;
+  background-color: #f9f9f9;
+}
+
+.user {
+  font-weight: bold;
+  margin: 0 0 4px 0;
+}
+
+.likes {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
